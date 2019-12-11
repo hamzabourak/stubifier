@@ -2,8 +2,8 @@
 Stub endpoints in any easy and isolated way
 
 
-# Usage example: 
-
+# Usage 
+```javascript
 const stubs = [{
   url: 'api/v3/pia/projects/*/accountability-mechanisms/Any',
   data: [
@@ -19,7 +19,9 @@ const stubs = [{
 }];
 
 stub('../stubifierServiceWorker.js', stubs, '/');
+```
+# Parameters 
 
-1st parameter : the service worker url, the service worker file should be copied in a folder that can be accessed by the borwser.
-2nd parameter : the stub endpoints
-3rd parameter : the service worker scope
+1. The service worker url, the service worker file should be copied in a folder that can be accessed by the borwser.
+2. Tthe stub endpoints.
+3. The service worker scope.
