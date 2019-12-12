@@ -2,6 +2,10 @@
 Stub endpoints in any easy and isolated way.<br />
 <br />
 **Stubifier** uses a Service Worker to stub endpoints at the browser level.
+<br />
+```
+npm i -D stubifier
+```
 
 # Benefits
 1. No need to run any server or modify your backend code.
