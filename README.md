@@ -16,7 +16,7 @@ The package exports a _**stub**_ method that you can call anywhere in your app (
 <br />
 
 _**stub**_ method parameters:
-1. **The Service Worker url, the service worker file should be copied in a folder (preferably the root of your app) inside your web application that can be accessed by the borwser.**
+1. **The Service Worker url, the service worker file (stubifierServiceWorker.js) should be copied in a folder (preferably the root of your app) inside your web application that can be accessed by the borwser.**
 2. The stub endpoints (see the below example for the structure of the object that needs to be provided).
  
 # Example
@@ -24,6 +24,7 @@ _**stub**_ method parameters:
 import { stub } from 'stubifier';
 
 const stubs = [{
+  // !! this url should be a 'sub' url of the Service Worker url
   url: 'api/projects/*/tasks', // Relative endpoint url, * can be used as a 'jocker'
   data: [
       {
