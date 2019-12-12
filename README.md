@@ -21,7 +21,7 @@ _**stub**_ method parameters:
 import { stub } from 'stubifier';
 
 const stubs = [{
-  url: 'api/projects/*/tasks',
+  url: 'api/projects/*/tasks', // Relative endpoint url, * can be used as a 'jocker'
   data: [
       {
           Id: 1,
