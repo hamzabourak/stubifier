@@ -1,6 +1,8 @@
 # Stubifier
 Stub endpoints in any easy and isolated way.<br />
-Stubifier uses a Service Worker to stub any endpoint at the browser level, no need to run any server or modify your backend code.
+<br />
+**Stubifier** uses a Service Worker to stub any endpoint at the browser level:
+1. No need to run any server or modify your backend code.
 
 
 
