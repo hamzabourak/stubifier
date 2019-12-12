@@ -18,8 +18,7 @@ The package exports a _**stub**_ method that you can call anywhere in your app (
 _**stub**_ method parameters:
 1. **The Service Worker url, the service worker file should be copied in a folder inside your web application that can be accessed by the borwser.**
 2. The stub endpoints (see the below example for the structure of the object that needs to be provided).
-3. The service worker scope. 
-
+ 
 # Example
 ```javascript
 import { stub } from 'stubifier';
@@ -38,5 +37,5 @@ const stubs = [{
   ],
 }];
 
-stub('../stubifierServiceWorker.js', stubs, '/');
+stub('../stubifierServiceWorker.js', stubs);
 ```
